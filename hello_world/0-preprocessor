@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall $CFILE -O c -lm
+export CFILE=c
