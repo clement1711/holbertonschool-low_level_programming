@@ -2,6 +2,7 @@
 /**
  * main - main block
  * prints the alphabet in lowercase and uppercase
+ * Return: 0
  */
 int main(void)
 {
