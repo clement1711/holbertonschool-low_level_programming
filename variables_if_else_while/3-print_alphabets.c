@@ -3,7 +3,7 @@
  * main -main block
  * prints the alphabet in lowercase and uppercase
  */
-int main()
+int main(void)
 {
 char a = 'a';
 
@@ -18,9 +18,9 @@ a = 'A';
 while (a <= 'Z')
 	{
 	putchar(a);
-	a==;
+	a++;
 	}
 
-putchar('\n');    
-return 0;
+putchar('\n');
+return (0);
 }
