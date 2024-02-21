@@ -11,8 +11,8 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-printf(0);
+putchar(0);
 }
-printf("\n");
+putchar("\n");
 return (0);
 }
