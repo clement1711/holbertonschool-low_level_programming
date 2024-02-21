@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -main block
+ * main - main block
  * prints the alphabet in lowercase and uppercase
  */
 int main(void)
