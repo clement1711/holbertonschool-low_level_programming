@@ -3,25 +3,24 @@
  * main -main block
  * prints the alphabet in lowercase and uppercase
  */
-int main() {
-    char lowercase, uppercase;
+int main()
 {
-	char a = 'a';
+char a = 'a';
 
-	while (a <= 'z')
-	{
-		putchar(a);
-		a++;
-	}
+while (a <= 'z')
+{
+	putchar(a);
+	a++;
+}
 	
-	a = 'A';
+a = 'A';
 
-	while (a <= 'Z')
+while (a <= 'Z')
 	{
-		putchar(a);
-		a==;
+	putchar(a);
+	a==;
 	}
 
-	putchar('\n');    
-        return 0;
+putchar('\n');    
+return 0;
 }
