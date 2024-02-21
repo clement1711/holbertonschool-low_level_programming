@@ -13,6 +13,6 @@ for (i = 0; i < 10; i++)
 {
 putchar(0);
 }
-putchar("\n");
+printf("\n");
 return (0);
 }
