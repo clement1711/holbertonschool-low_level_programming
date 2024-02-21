@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
  * main - main block
- * Get a random number and check its last digit, compare it with 5
+ * prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  * Return: 0
  */
 int main(void)
 {
-	int c;
+        int i;
 
-	for (c = 0; c < 10; c++)
-	{
-		printf(c);
-	}
-	
-	printf("\n");
-	return (0);
+        for (i = 0; i < 10; i++)
+        {
+                printf(0);
+        }
+
+        printf("\n");
+        return (0);
 }
