@@ -10,9 +10,9 @@ int main(void)
         char alpha;
 	for(alpha = 'a'; alpha <= 'z'; ++alpha) {
 		if(alpha != 'q' && alpha != 'e') {
-			putchar("%d", alpha);
+			putchar(alpha);
 		}	
         }
-        putchar("%d", alpha);
+        putchar('\n');
         return (0);
 }
