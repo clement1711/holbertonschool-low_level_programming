@@ -5,12 +5,12 @@ int main() {
 
     putchar("Alphabet en minuscules : \n");
     for(lowercase = 'a'; lowercase <= 'z'; ++lowercase) {
-        printf("%c ", lowercase);
+        putchar("%c ", lowercase);
     }
 
     putchar("\nAlphabet en majuscules : \n");
     for(uppercase = 'A'; uppercase <= 'Z'; ++uppercase) {
-        printf("%c ", uppercase);
+        putchar("%c ", uppercase);
     }
 
     putchar("\n");
