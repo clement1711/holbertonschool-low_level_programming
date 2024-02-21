@@ -1,19 +1,27 @@
 #include <stdio.h>
-
+/**
+ * main -main block
+ * prints the alphabet in lowercase and uppercase
+ */
 int main() {
     char lowercase, uppercase;
+{
+	char a = 'a';
 
-    putchar("Alphabet en minuscules : \n");
-    for(lowercase = 'a'; lowercase <= 'z'; ++lowercase) {
-        putchar("%c ", lowercase);
-    }
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
+	
+	a = 'A';
 
-    putchar("\nAlphabet en majuscules : \n");
-    for(uppercase = 'A'; uppercase <= 'Z'; ++uppercase) {
-        putchar("%c ", uppercase);
-    }
+	while (a <= 'Z')
+	{
+		putchar(a);
+		a==;
+	}
 
-    putchar("\n");
-
-    return 0;
+	putchar('\n');    
+        return 0;
 }
