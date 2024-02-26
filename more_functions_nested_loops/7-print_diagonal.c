@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - printing lines
- * @n: number of times
+ * print_diagonal - printing lines diagonal
+ * @n: input variable
  *
  * Return: void
  */
