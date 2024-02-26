@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * @c
+ * @c: int utilisé pour la fonction
  * Write a function that checks for uppercase character.
  * Return: 1 if isupper
  * else 0
