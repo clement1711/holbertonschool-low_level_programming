@@ -14,9 +14,9 @@ char *string_toupper(char *str)
 {
 		if (*ptr >= 'a' && *ptr <= 'z') 
 		{
-		*ptr = *ptr - 'a' + 'A'; // Convertit la lettre minuscule en majuscule
-        	}
-	ptr++; // Passe au caractère suivant
+			*ptr = *ptr - 'a' + 'A';
+		}
+	ptr++;
 }
 	return str;
 }
